@@ -3,7 +3,7 @@
 
 Name:		rocthrust
 Version:	7.14.0
-Release:	1
+Release:	2
 Summary:	HIP port of Thrust (header-only)
 License:	Apache-2.0 AND BSD-3-Clause AND MIT
 Group:		Development/C++
@@ -21,7 +21,6 @@ BuildRequires:	rocm-hip-devel
 BuildRequires:	clang >= %{rocm_llvm_maj_ver}
 BuildRequires:	rocprim-devel
 
-ExclusiveArch:	%{x86_64} %{aarch64}
 
 %description
 rocThrust is a HIP port of Thrust on rocPRIM. Header-only package. GPU targets include gfx803.
