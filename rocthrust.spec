@@ -1,14 +1,14 @@
-# HIP port of Thrust (header-only) (TheRock 10.0)
+# HIP port of Thrust (header-only) (TheRock 10.1)
 %global debug_package %{nil}
 
 Name:		rocthrust
-Version:	10.0.0
+Version:	10.1.0
 Release:	1
 Summary:	HIP port of Thrust (header-only)
 License:	Apache-2.0 AND BSD-3-Clause AND MIT
 Group:		Development/C++
 URL:		https://github.com/ROCm/rocm-libraries
-Source0:	https://github.com/ROCm/rocm-libraries/releases/download/therock-10.0/rocthrust.tar.gz#/rocthrust-%{version}.tar.gz
+Source0:	https://github.com/ROCm/rocm-libraries/releases/download/therock-10.1/rocthrust.tar.gz#/rocthrust-%{version}.tar.gz
 
 BuildRequires:	rocm-rpm-macros
 BuildRequires:	cmake
